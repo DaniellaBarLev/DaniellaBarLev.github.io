@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Daniella Bar-Lev"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,10 +21,10 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Academic website of Daniella Bar-Lev, Postdoctoral Researcher specializing in DNA Data Storage Systems and Coding Theory."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "Daniella_Lev"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -34,26 +34,42 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "retro"
     # Optional: Override theme pack colors
     colors:
       primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
       neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
-    # Optional: Semantic surface color overrides
-    surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
+    # --- Force a clean, high-contrast LIGHT theme ---
+    #colors_light:
+    #  primary: "#374151"   # gray-700
+    #  secondary: "#6b7280" # gray-500
+    #  neutral: "#d1d5db"   # gray-300
 
+    #surfaces_light:
+    #  background: "#ffffff" # white
+    #  foreground: "#111827" # gray-900
+    #  header:
+    #    background: "#ffffff"
+    #    foreground: "#111827"
+    #  card: "#ffffff" # Explicitly set cards to white
+    #  border: "#e5e7eb" # gray-200
+
+    # --- Force a clean, high-contrast DARK theme ---
+    #colors_dark:
+    #  primary: "#d1d5db"   # gray-300
+    #  secondary: "#9ca3af" # gray-400
+    #  neutral: "#4b5563"   # gray-600
+
+    #surfaces_dark:
+    #  background: "#111827" # gray-900
+    #  foreground: "#f9fafb" # gray-50
+    #  header:
+    #    background: "#111827"
+    #    foreground: "#f9fafb"
+    #  card: "#1f2937" # gray-800
+    #  border: "#374151" # gray-700
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
   # Font and text sizing
@@ -70,9 +86,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "sm"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle                # circle | square | rounded
 
@@ -91,7 +107,7 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
@@ -166,7 +182,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa                        # apa | mla | chicago | ieee
+      style: ieee                        # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH

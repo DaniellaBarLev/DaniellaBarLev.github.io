@@ -1,0 +1,82 @@
+{{ define "main" }}
+<style>
+  /* Custom styling for wider margins and larger font */
+  .wider-container {
+    max-width: 1000px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .pub-list-item {
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+  }
+</style>
+
+<div class="container wider-container px-8 py-10">  <!-- Changed: px-4 to px-8, py-8 to py-10 -->
+  
+  {{/* Page Title */}}
+  <header class="mb-12 text-center">
+    <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4" style="font-size: 2.5rem !important;">{{ .Title }}</h1>  <!-- Added: larger font -->
+    {{ with .Params.subtitle }}
+      <p class="text-xl text-gray-600 dark:text-gray-300" style="font-size: 1.25rem !important;">{{ . }}</p>  <!-- Added: larger font -->
+    {{ end }}
+  </header>
+
+  {{/* Get all publications */}}
+  {{ $allPages := .RegularPages }}
+  
+  {{ if $allPages }}
+    
+    {{/* JOURNAL ARTICLES */}}
+    {{ $journals := where $allPages ".Params.publication_types" "intersect" (slice "article-journal") }}
+    {{ if $journals }}
+      <section class="mb-14">  <!-- Changed: mb-12 to mb-14 -->
+        <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6 pb-2 border-b" style="font-size: 1.9rem !important;">Journal Articles</h2>  <!-- Added: larger font -->
+        <div class="space-y-8">
+        {{ range $journals }}
+          <div class="pub-list-item">  <!-- Added: wrapper div for styling -->
+            {{ partial "views/citation" (dict "item" .) }}
+          </div>
+        {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    
+    {{/* CONFERENCE PAPERS */}}
+    {{ $conferences := where $allPages ".Params.publication_types" "intersect" (slice "paper-conference") }}
+    {{ if $conferences }}
+      <section class="mb-14">  <!-- Changed: mb-12 to mb-14 -->
+        <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6 pb-2 border-b" style="font-size: 1.9rem !important;">Conference Proceedings</h2>  <!-- Added: larger font -->
+        <div class="space-y-8">
+        {{ range $conferences }}
+          <div class="pub-list-item">  <!-- Added: wrapper div for styling -->
+            {{ partial "views/citation" (dict "item" .) }}
+          </div>
+        {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    
+    {{/* Other publications (optional) */}}
+    {{ $others := where $allPages ".Params.publication_types" "not in" (slice "article-journal" "paper-conference") }}
+    {{ if $others }}
+      <section class="mb-14">  <!-- Changed: mb-12 to mb-14 -->
+        <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6 pb-2 border-b" style="font-size: 1.9rem !important;">Other Publications</h2>  <!-- Added: larger font -->
+        <div class="space-y-8">
+        {{ range $others }}
+          <div class="pub-list-item">  <!-- Added: wrapper div for styling -->
+            {{ partial "views/citation" (dict "item" .) }}
+          </div>
+        {{ end }}
+        </div>
+      </section>
+    {{ end }}
+    
+  {{ else }}
+    <div class="text-center py-12">
+      <p class="text-gray-600 dark:text-gray-400 text-lg" style="font-size: 1.125rem !important;">No publications found.</p>  <!-- Added: larger font -->
+    </div>
+  {{ end }}
+  
+</div>
+{{ end }}
