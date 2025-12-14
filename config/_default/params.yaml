@@ -105,7 +105,7 @@ hugoblox:
     # Menu alignment
     align: center                       # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
     theme_picker: false
     language_switcher: true
@@ -189,7 +189,7 @@ hugoblox:
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal
@@ -211,7 +211,21 @@ hugoblox:
       shortname: ""
     commento:
       url: ""
-
+  
+  # ────────────────────────────────────────────────────────────────────────────
+  # IMAGE
+  # Site images for social sharing and branding
+  # ────────────────────────────────────────────────────────────────────────────
+  image:
+    # Default preview/social sharing image
+    preview: "media/authors/me.jpg"
+    # Optional: Favicon (16x16, 32x32, 48x48 PNG or ICO)
+    favicon: ""
+    # Optional: Logo for navbar (displayed next to site name)
+    logo: ""
+    # Optional: Icon for navbar (displayed instead of site name when set)
+    icon: ""
+    
   # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
   # Traffic and behavior analytics
@@ -307,3 +321,4 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+
