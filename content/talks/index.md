@@ -23,7 +23,7 @@ aside,
 .hb-scrollbar,
 .hb-toc,
 .td-toc {
-    max-width: 10% !important;
+    max-width: 20% !important;
   /*display: none !important;*/
 }
 
@@ -31,7 +31,7 @@ aside,
 .col-12.col-xl-7,
 .col-12.col-xl-8,
 .td-content {
-  max-width: 100% !important;
+  max-width: 90% !important;
   flex: 0 0 100% !important;
 }
 
@@ -77,8 +77,8 @@ main.px-6, main.md\:px-12 {
 /* Column widths */
 .talks-table th:nth-child(1), .talks-table td:nth-child(1) { width: 13%; }
 .talks-table th:nth-child(2), .talks-table td:nth-child(2) { width: 15%; }
-.talks-table th:nth-child(3), .talks-table td:nth-child(3) { width: 45%; }
-.talks-table th:nth-child(4), .talks-table td:nth-child(4) { width: 12%; }
+.talks-table th:nth-child(3), .talks-table td:nth-child(3) { width: 42%; }
+.talks-table th:nth-child(4), .talks-table td:nth-child(4) { width: 15%; }
 .talks-table th:nth-child(5), .talks-table td:nth-child(5) { width: 15%; }
 
 /* Compact content */
@@ -119,16 +119,16 @@ h2, h3 {
 }
 
 /* Mobile responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .talks-table {
     font-size: 0.85rem;
     display: block;
     overflow-x: auto;
   }
   
-  .talks-table th:nth-child(1), .talks-table td:nth-child(1) { width: 20%; }
+  .talks-table th:nth-child(1), .talks-table td:nth-child(1) { width: 22%; }
   .talks-table th:nth-child(2), .talks-table td:nth-child(2) { width: 25%; }
-  .talks-table th:nth-child(3), .talks-table td:nth-child(3) { width: 40%; }
+  .talks-table th:nth-child(3), .talks-table td:nth-child(3) { width: 38%; }
   .talks-table th:nth-child(4), .talks-table td:nth-child(4) { width: 15%; }
   .talks-table th:nth-child(5), .talks-table td:nth-child(5) { width: 20%; }
 }
@@ -148,26 +148,15 @@ h2, h3 {
 </thead>
 <tbody>
 <tr>
-<td><strong>Mar 1–2, 2025</strong></td>
-<td>NVMW 2025</td>
+<td><strong>Feb 25–27, 2026</strong></td>
+<td>IZS 2026</td>
 <td>
-<strong>Cover Your Bases: How to Minimize the Sequencing Coverage in DNA Storage Systems</strong>
+<strong>The Coded Coupons Collector’s Problem</strong>
 <em>D. Bar-Lev</em>
-<span>📄 <a href="publications/cover-your-bases">Paper</a></span>
+<span>🔗 <a href="https://www.izs.ethz.ch">Seminar</a></span>
 </td>
-<td>Las Vegas, Nevada, USA</td>
-<td>Oral presentation</td>
-</tr>
-<tr>
-<td><strong>Mar 1–2, 2025</strong></td>
-<td>NVMW 2025</td>
-<td>
-<strong>Scalable and Robust DNA-based Storage via Coding Theory and Deep Learning</strong>
-<em>D. Bar-Lev</em>
-<span>📄 <a href="publications/scalable-dna-storage">Paper</a></span>
-</td>
-<td>Las Vegas, Nevada, USA</td>
-<td>Oral</td>
+<td>Zurich, Switzerland</td>
+<td>Invited talk</td>
 </tr>
 </tbody>
 </table>
@@ -186,12 +175,36 @@ h2, h3 {
 </thead>
 <tbody>
 <tr>
+<td><strong>Mar 1–2, 2025</strong></td>
+<td>NVMW 2025</td>
+<td>
+<strong>Scalable and Robust DNA-based Storage via Coding Theory and Deep Learning</strong>
+<em>D. Bar-Lev</em>
+<span>🔗 <a href="http://nvmw.ucsd.edu">Workshop</a></span> · 
+<span>📄 <a href="http://nvmw.ucsd.edu/nvmw2025-program/nvmw2025-final9.pdf">Abstract</a></span>
+</td>
+<td>Las Vegas, Nevada, USA</td>
+<td>Oral presentation</td>
+</tr>
+<tr>
+<td><strong>Mar 1–2, 2025</strong></td>
+<td>NVMW 2025</td>
+<td>
+<strong>Cover Your Bases: How to Minimize the Sequencing Coverage in DNA Storage Systems</strong>
+<em>D. Bar-Lev</em>
+<span>🔗 <a href="http://nvmw.ucsd.edu">Workshop</a></span> · 
+<span>📄 <a href="http://nvmw.ucsd.edu/nvmw2025-program/nvmw2025-final38.pdf">Abstract</a></span>
+</td>
+<td>Las Vegas, Nevada, USA</td>
+<td>Oral presentation</td>
+</tr>
+<tr>
 <td>Dec 15–20, 2024</td>
 <td>Dagstuhl Seminar 2024</td>
 <td>
 <strong>Scalable and Robust DNA-based Storage via Coding Theory and Deep Learning</strong>
 <em>D. Bar-Lev</em>
-<span>📄 <a href="publications/scalable-dna-storage">Paper</a></span>
+<span>🔗 <a href="https://www.dagstuhl.de/24511">Seminar</a></span>
 </td>
 <td>Dagstuhl, Germany</td>
 <td>Oral presentation</td>
@@ -213,18 +226,17 @@ h2, h3 {
 <td>
 <strong>Coding and Algorithms for DNA Storage Systems</strong>
 <em>D. Bar-Lev, O. Sabary, E. Yaakobi</em>
-<span>🔗 <a href="https://2023.ieee-isit.org">ISIT 2023</a> · 📊 <a href="/path/to/slides.pdf">Slides</a></span>
+<span>🔗 <a href="https://2023.ieee-isit.org">ISIT 2023</a> · 📊 <a href="https://drive.google.com/file/d/1_P-aAYM_YWJ5AX5wfGXbQ-VQG71qNDyH/view">Slides</a></span>
 </td>
 <td>Taipei, Taiwan</td>
-<td>Tutorial</td>
+<td>Tutorial (3 hours)</td>
 </tr>
 <tr>
 <td>May 17–19, 2023</td>
 <td>London Calling 2023</td>
 <td>
 <strong>Cover Your Bases: How to Minimize the Sequencing Coverage in DNA Storage Systems</strong>
-<em>D. Bar-Lev, O. Sabary, R. Gabrys, E. Yaakobi</em>
-<span>📄 <a href="publications/cover-your-bases">Paper</a></span>
+<em>D. Bar-Lev</em>
 </td>
 <td>London, England</td>
 <td>Poster</td>
@@ -234,8 +246,7 @@ h2, h3 {
 <td>Munich Workshop 2022</td>
 <td>
 <strong>Minimizing the Sequencing Coverage of DNA Storage Systems</strong>
-<em>D. Bar-Lev, R. Gabrys, I. Orr, O. Sabary, E. Yaakobi</em>
-<span>📄 <a href="publications/cover-your-bases">Paper</a></span>
+<em>D. Bar-Lev</em>
 </td>
 <td>Munich, Germany</td>
 <td>Poster</td>
@@ -246,7 +257,6 @@ h2, h3 {
 <td>
 <strong>Adversarial Torn-paper Codes</strong>
 <em>D. Bar-Lev</em>
-<span>📄 <a href="publications/adversarial-torn-paper-codes">Paper</a></span>
 </td>
 <td>Marburg, Germany (virtual)</td>
 <td>Oral presentation</td>
