@@ -4,10 +4,11 @@ authors:
 - Bar-Lev, D.
 - Ravagnani, A.
 - Yaakobi, E.
-date: '2025-01-01'
+date: '2025-12-01'
 doi: 10.1109/tit.2025.3623202
 number: '12'
 pages: 9395--9412
+url_pdf: https://arxiv.org/pdf/2401.15722
 publication: IEEE Transactions on Information Theory
 publication_types:
 - article-journal

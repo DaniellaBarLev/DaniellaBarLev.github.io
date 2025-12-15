@@ -4,9 +4,10 @@ authors:
 - Marcovich, S.
 - Yaakobi, E.
 - Yehezkeally, Y.
-date: '2022-01-01'
+date: '2022-06-26'
 pages: 2934-2939
-publication: IEEE International Symposium on Information Theory Proceedings
+doi: '10.1109/ISIT50566.2022.9834766'
+publication: 2022 IEEE International Symposium on Information Theory (ISIT)
 publication_types:
 - paper-conference
 title: Adversarial Torn-paper Codes

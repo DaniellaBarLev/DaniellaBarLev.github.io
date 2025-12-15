@@ -4,10 +4,9 @@ authors:
 - Bar-Lev, D.
 - Marcovich, S.
 - Yaakobi, E.
-date: '2022-01-01'
+date: '2022-10-17'
 pages: 104-108
-publication: Proceedings of 2022 International Symposium on Information Theory and
-  Its Applications Isita 2022
+publication: 2022 International Symposium on Information Theory and Its Applications (ISITA)
 publication_types:
 - paper-conference
 title: Reconstruction from Substrings with Partial Overlap
