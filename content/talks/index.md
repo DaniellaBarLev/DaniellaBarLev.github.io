@@ -1,7 +1,7 @@
 ---
 
 reading_time: false
-
+type: talks
 # These disable sidebars and table of contents
 _build:
   list: never
@@ -148,7 +148,7 @@ h2, h3 {
 </thead>
 <tbody>
 <tr>
-<td><strong>Feb 25–27, 2026</strong></td>
+<td>Feb 25–27, 2026</td>
 <td>IZS 2026</td>
 <td>
 <strong>The Coded Coupons Collector’s Problem</strong>
@@ -175,7 +175,7 @@ h2, h3 {
 </thead>
 <tbody>
 <tr>
-<td><strong>Mar 1–2, 2025</strong></td>
+<td>Mar 1–2, 2025</td>
 <td>NVMW 2025</td>
 <td>
 <strong>Scalable and Robust DNA-based Storage via Coding Theory and Deep Learning</strong>
@@ -187,7 +187,7 @@ h2, h3 {
 <td>Oral presentation</td>
 </tr>
 <tr>
-<td><strong>Mar 1–2, 2025</strong></td>
+<td>Mar 1–2, 2025</td>
 <td>NVMW 2025</td>
 <td>
 <strong>Cover Your Bases: How to Minimize the Sequencing Coverage in DNA Storage Systems</strong>
