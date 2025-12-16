@@ -21,14 +21,14 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:daniellalev@cs.technion.ac.il
     label: E-mail Me
   - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
+    url: https://x.com/Daniella_Lev
+  #- icon: brands/github
+  #  url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/daniella-bar-lev/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=-wPg_0gAAAAJ&hl=iw
   - icon: academicons/orcid
