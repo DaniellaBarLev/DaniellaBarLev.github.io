@@ -218,7 +218,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   image:
     # Default preview/social sharing image
-    preview: "media/authors/me.jpg"
+    preview: "media/authors/me.png"
     # Optional: Favicon (16x16, 32x32, 48x48 PNG or ICO)
     favicon: ""
     # Optional: Logo for navbar (displayed next to site name)
