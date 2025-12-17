@@ -1,8 +1,18 @@
 ---
 type: "page"
-reading_time: false
+# Disable all image processing
+header:
+  image: ""
+  caption: ""
+  image_description: ""
+# Disable page bundles
 _build:
   list: never
+  publishResources: false
+  render: always
+# Disable reading time
+reading_time: false
+# Disable table of contents
 toc: false
 ---
 

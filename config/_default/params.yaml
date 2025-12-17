@@ -132,7 +132,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "Unless otherwise noted, this work is licensed under CC BY NC SA 4.0, and code samples are licensed under the MIT License."
     license:
       type: cc                          # cc | all_rights | custom
       allow_derivatives: false
