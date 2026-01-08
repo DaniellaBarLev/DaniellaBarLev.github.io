@@ -62,8 +62,12 @@ education:
     end: 2019-05-01
 experience:
   - role: Postdoctoral Research Scholar
+    org: Universität Zürich (UZH)
+    start: 2026-01-01
+  - role: Postdoctoral Research Scholar
     org: University of California, San Diego
     start: 2025-01-01
+    end: 2025-12-31
   - role: Postdoctoral Fellow
     org: Technion - Israel Institute of Technology
     start: 2024-08-01
