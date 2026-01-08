@@ -216,15 +216,15 @@ hugoblox:
   # IMAGE
   # Site images for social sharing and branding
   # ────────────────────────────────────────────────────────────────────────────
-  image:
+  # image:
     # Default preview/social sharing image
-    preview: ""
+    # preview: ""
     # Optional: Favicon (16x16, 32x32, 48x48 PNG or ICO)
-    favicon: ""
+    # favicon: ""
     # Optional: Logo for navbar (displayed next to site name)
-    logo: ""
+    # logo: ""
     # Optional: Icon for navbar (displayed instead of site name when set)
-    icon: ""
+    # icon: ""
     
   # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
