@@ -16,12 +16,12 @@ status:
 role: Postdoctoral Research Scholar
 #bio: ""
 affiliations:
-  - name: University of California, San Diego
-    url: https://ucsd.edu
+  - name: Universität Zürich (UZH)
+    url: https://www.uzh.ch/en.html
 
 links:
   - icon: at-symbol
-    url: mailto:daniellalev@cs.technion.ac.il
+    url: mailto:daniella.bar-lev@math.uzh.ch
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/Daniella_Lev
@@ -80,37 +80,6 @@ experience:
     org: ScaleIO EMC (Dell)
     start: 2016-06-01
     end: 2018-07-30
-   
-teaching:
-  - course: "Logic and Set Theory"
-    role: "Head Lecturer"
-    institution: "Reichman University"
-    level: "Undergraduate"
-    
-  - course: "Coding Theory"
-    role: "Head Lecturer"
-    institution: "Reichman University"
-    level: "Graduate"
-    
-  - course: "Computational Models"
-    role: "Teaching Assistant"
-    institution: "Reichman University"
-    level: "Undergraduate"
-    
-  - course: "Coding and Algorithms for Memories"
-    role: "Head Teaching Assistant"
-    institution: "Technion – Israel Institute of Technology"
-    level: "Graduate"
-    
-  - course: "Combinatorics"
-    role: "Head Teaching Assistant"
-    institution: "Technion – Israel Institute of Technology"
-    level: "Undergraduate"
-    
-  - course: "C Language Programming"
-    role: "Teaching Assistant"
-    institution: "Technion – Israel Institute of Technology"
-    level: "Undergraduate"
 #awards:
 #  - title: The Eric and Wendy Schmidt Postdoctoral Award for Women in Mathematical and Computing Sciences
 #    awarder: Schmidt Sciences
