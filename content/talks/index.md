@@ -314,17 +314,7 @@ observer.observe(document.documentElement, { attributes: true });
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Feb 25–27, 2026</td>
-<td>IZS 2026</td>
-<td>
-<strong>The Coded Coupons Collector's Problem</strong>
-<em>D. Bar-Lev</em>
-<span>🔗 <a href="https://www.izs.ethz.ch">Seminar</a></span>
-</td>
-<td>Zurich, Switzerland</td>
-<td>Invited talk</td>
-</tr>
+
 </tbody>
 </table>
 
@@ -341,6 +331,29 @@ observer.observe(document.documentElement, { attributes: true });
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Feb 25–27, 2026</td>
+<td>IZS 2026</td>
+<td>
+<strong>The Coded Coupons Collector's Problem</strong>
+<em>D. Bar-Lev</em>
+<span>🔗 <a href="https://www.izs.ethz.ch">Seminar</a></span> · 
+<span>📄 <a href="/uploads/IZS_Abstract___The_Coded_Coupons_Collector's_Problem.pdf">Abstract</a></span> · 
+<span>📊 <a href="/uploads/IZS_Coded_CCP_slides.pdf">Slides</a></span>
+</td>
+<td>Zurich, Switzerland</td>
+<td>Invited talk</td>
+</tr>
+<tr>
+<td>Feb 1, 2026</td>
+<td>ACC 2026</td>
+<td>
+<strong>Theory and Practice of DNA Data Storage</strong>
+<em>D. Bar-Lev</em>
+<span>🔗 <a href="/uploads/ACC_Schedule.pdf">Workshop</a></span>
+<td>Tel-Aviv, Israel </td>
+<td>Oral presentation </td>
+</tr>
 <tr>
 <td>Mar 1–2, 2025</td>
 <td>NVMW 2025</td>
